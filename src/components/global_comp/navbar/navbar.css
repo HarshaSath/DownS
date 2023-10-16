@@ -1,0 +1,18 @@
+
+.cus_navbar{
+    background-color: #aeffe3;
+    color: #003c26;
+    overflow: hidden;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.cus_link{
+    font-weight: bold;
+    text-decoration: none;
+    color: #707070;
+}
+
+.cus_link:hover {
+    color: #00b073;
+  }
+

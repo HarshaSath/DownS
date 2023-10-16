@@ -1,0 +1,106 @@
+
+.hero {
+    margin-top: 30px;
+    min-height: 100vh;
+    background-image: url('../../public/back-image/hero-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:#0B2E29;
+}
+.cus_color{
+    color: #2fb083;
+}
+
+/* hero text reveal-slide in */
+@keyframes slideIn {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.hero_text {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    animation: slideIn 1.5s ease-in-out forwards;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ai_section {
+    background-image: url('../../public/page/findsyndrome.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.text-box {
+    background: linear-gradient(to bottom, #aeffe3, white);
+    justify-content: center;
+}
+
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+img:hover {
+    transform: scale(1.03);
+    transition: transform 0.1s ease-in-out;
+}
+
+.ai_section{
+    color: white;
+}
+.form_container{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/* buttons */
+
+.start_btn{
+    border: 2px solid #0B2E29 ;
+    background-color:#2fb083 ;
+}
+.start_btn:hover{
+    color: #0B2E29;
+    background-color: #aeffe3;
+}
+
+.clear_btn{
+    border:3px solid #2fb083;
+    color: white;
+}
+.clear_btn:hover{
+    background-color: #aeffe3;
+    color: black
+}
+.submit_btn{
+    background-color: #2fb083;
+}
+.submit_btn:hover{
+    background-color: #aeffe3;
+    color: black;
+}
