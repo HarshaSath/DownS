@@ -6,7 +6,7 @@ export default function Footer() {
         <>
             <div className="footer_bg text-center">
                 <div className="container p-5">
-                    <h1 className='mb-4 fw-bold'>FindDownSyndrome.Com</h1> 
+                    <h1 className='mb-4 fw-bold'>Genius Syndrome.Com</h1> 
                         <p className='fw-bold'>Contact us via social media:</p>
                         <a
                             className="btn btn_image rounded-5 text-white m-1"
@@ -46,7 +46,7 @@ export default function Footer() {
 
                 <div className="text-center text-white p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
                     © 2023 Copyright:
-                    <a href="/">FindDownSyndrome.com </a>:
+                    <a href="/">Genius Syndrome.com </a>:
                     All rights resereved.
                 </div>
             </div>

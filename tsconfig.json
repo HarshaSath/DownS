@@ -20,14 +20,17 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "src/app/pages/Home/page.tsx", "src/app/pages/layout.tsx"  ],
+    "**/*.tsx",
+    "src/app/pages/Home/page.tsx",
+    "src/app/pages/layout.tsx"
+, "src/components/chatbot/chatbot.jsx"  ],
   "exclude": [
     "node_modules"
   ]
