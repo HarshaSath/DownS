@@ -43,7 +43,7 @@ export default function GetStart() {
     setTimeout(async () => {
       try {
         // Send the 'content' to the backend
-        const response = await axios.post<ResponseData>("http://humorous-mule-uniformly.ngrok-free.app/ner_predict", { text: content });
+        const response = await axios.post<ResponseData>("https://humorous-mule-uniformly.ngrok-free.app/ner_predict", { text: content });
         console.log(response.data.isDownSyndromeDetected);
         console.log(response.data.totalPercentage);
         console.log(response.data.textUsedForDiagnosis);
